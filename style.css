@@ -1,0 +1,35 @@
+body{ 
+    display: flex;
+    justify-content: center;
+}
+.calendar{
+
+    margin-top: 20px;
+    width: 90%;   
+}
+.row{
+    text-align: center;
+ }
+
+.mes{
+    background-color: rgb(129, 145, 206);
+    border-radius: 15px;
+    color: white;
+    margin-top: 10px;
+    transition: 0.2;
+}
+.mes:hover{
+    padding: 2px;
+}
+
+.atividades{
+    border: solid 1px rgb(255, 255, 255) ;
+    height: 160px;
+    border-radius: 15px;
+    background-color: rgb(61, 72, 225); 
+    transition: 0.3;
+}
+
+.atividades:hover{
+    height: 180px;
+}
